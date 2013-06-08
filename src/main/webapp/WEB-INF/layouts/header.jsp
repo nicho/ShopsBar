@@ -27,7 +27,7 @@
 			<div>
 				<ul class="nav nav-pills">
 					<li id="user-tab"><a href="${ctx}/admin/user">会员管理</a></li>
-					<li><a href="#">信息管理</a></li>
+				    <li id="news-tab"><a href="${ctx}/news">新闻管理</a></li>
 					<li><a href="#">产品类别</a></li>
 					<li><a href="#">产品管理</a></li>
 					<li id="task-tab"><a href="${ctx}/task">任务管理</a></li>
