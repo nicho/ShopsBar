@@ -6,6 +6,11 @@
 <html>
 <head>
 	<title>任务管理</title>
+	<script>
+		$(document).ready(function() {
+			$("#task-tab").addClass("active");
+		});
+	</script>
 </head>
 
 <body>

@@ -6,6 +6,11 @@
 <html>
 <head>
 	<title>用户管理</title>
+	<script>
+		$(document).ready(function() {
+			$("#user-tab").addClass("active");
+		});
+	</script>
 </head>
 
 <body>
