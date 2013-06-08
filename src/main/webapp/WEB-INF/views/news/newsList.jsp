@@ -20,7 +20,7 @@
 	<div class="row">
 		<div class="span4 offset7">
 			<form class="form-search" action="#">
-				<label>名称：</label> <input type="text" name="search_LIKE_title" class="input-medium" value="${param.search_LIKE_title}"> 
+				<label>标题：</label> <input type="text" name="search_LIKE_title" class="input-medium" value="${param.search_LIKE_title}"> 
 				<button type="submit" class="btn" id="search_btn">Search</button>
 		    </form>
 	    </div>
@@ -28,11 +28,12 @@
 	</div>
 	
 	<table id="contentTable" class="table table-striped table-bordered table-condensed">
-		<thead><tr><th>新闻</th><th>管理</th></tr></thead>
+		<thead><tr><th>标题</th><th>创建人</th><th>管理</th></tr></thead>
 		<tbody>
 		<c:forEach items="${newss.content}" var="news">
 			<tr>
 				<td><a href="${ctx}/news/update/${news.id}">${news.title}</a></td>
+				<td>${news.user.name}</td>
 				<td><a href="${ctx}/news/delete/${news.id}">删除</a></td>
 			</tr>
 		</c:forEach>
