@@ -14,11 +14,11 @@
           <a class="brand" href="#">Friend Bar</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li class="active"><a href="#">主页</a></li>
+              <li><a href="#about">关于</a></li>
+              <li><a href="#contact">不知道</a></li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">等等 <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">Action</a></li>
                   <li><a href="#">Another action</a></li>
@@ -33,7 +33,8 @@
             <form class="navbar-form pull-right">
               <input class="span2" type="text" placeholder="Email">
               <input class="span2" type="password" placeholder="Password">
-              <button type="submit" class="btn">Sign in</button>
+              <button type="submit" class="btn">登陆</button>
+              <button type="submit" class="btn">注册</button>
             </form>
           </div><!--/.nav-collapse -->
         </div>

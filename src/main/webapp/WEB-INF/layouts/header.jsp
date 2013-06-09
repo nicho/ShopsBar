@@ -5,7 +5,7 @@
 <div id="header">
 	<div id="title">
 		<h1>
-			QuickStart示例<small>--TodoList应用演示</small>
+			Friend Bar音乐咖啡吧<small>--后台管理</small>
 			<shiro:user>
 				<div class="btn-group pull-right">
 					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#"> <i class="icon-user"></i> <shiro:principal
