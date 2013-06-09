@@ -38,9 +38,9 @@
 </head>
 
 <body>
-	<div class="container">
+	<div class="">
 		<%@ include file="/WEB-INF/layouts/frontheader.jsp"%>
-		<div id="content">
+		<div id="content" style=" padding-top: 65px;">
 			<sitemesh:body/>
 		</div>
 		<%@ include file="/WEB-INF/layouts/frontfooter.jsp"%>
