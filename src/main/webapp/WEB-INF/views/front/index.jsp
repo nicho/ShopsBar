@@ -27,7 +27,7 @@
           <img src="${ctx}/static/images/slide-02.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
+              <h1>广告图片2</h1>
               <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               <a class="btn btn-large btn-primary" href="#">Learn more</a>
             </div>
@@ -37,7 +37,7 @@
           <img src="${ctx}/static/images/slide-03.jpg" alt="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
+              <h1>广告图片3</h1>
               <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
               <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
             </div>
