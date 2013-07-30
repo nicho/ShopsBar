@@ -16,9 +16,9 @@
             <ul class="nav">
               <li class="active"><a href="#">主页</a></li>
               <li><a href="#about">关于</a></li>
-              <li><a href="#contact">不知道</a></li>
+              <li><a href="#contact">新闻</a></li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">等等 <b class="caret"></b></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">菜单<b class="caret"></b></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">Action</a></li>
                   <li><a href="#">Another action</a></li>
